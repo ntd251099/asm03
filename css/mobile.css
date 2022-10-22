@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+  .topnav {
+    display: block;
+  }
+  nav a {
+    text-align: left;
+  }
+  .gt {
+    padding-left: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dfb717c3;
+  }
+  .gt1 {
+    padding-left: 40px;
+    padding-bottom: 20px;
+  }
+  .b-left {
+    border: 0;
+  }
+  .award {
+    border: 0;
+  }
+
+  .year {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

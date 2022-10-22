@@ -1,0 +1,168 @@
+* {
+  box-sizing: ;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif, Arial, tahoma;
+  /* border: 1px solid black; */
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 2;
+}
+.container {
+  margin: auto;
+  padding: 30px 50px;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+.banner-img {
+  max-width: 100%;
+}
+.centered {
+  position: absolute;
+
+  /*vị trí so với phần tử cha */
+  top: 50%;
+  left: 50%;
+
+  /*vị trí so với chính nó */
+  transform: translate(-50%, 0);
+}
+.topnav {
+  justify-content: center;
+  margin: 0 auto;
+}
+.tn {
+  /* flex-grow: 1;
+  flex-shrink: 1; */
+}
+
+.avt {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  border: 10px solid white;
+  border-radius: 50%;
+  /*vị trí so với chính nó */
+  transform: translate(-50%, -40%);
+}
+.topnav a {
+  text-decoration: none;
+  padding: 10px;
+  border-left: 1px solid rgb(39, 124, 209);
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.icon-user,
+.icon-doc-text-inv,
+.icon-mail-alt,
+.icon-star-1 {
+  color: rgb(22, 162, 231);
+}
+.info {
+  display: inline-block;
+  padding-right: 30px;
+}
+.section {
+  background-color: #e8d2d246;
+  border: 1px solid rgb(192, 182, 182);
+  height: 540px;
+}
+.section-cc {
+  background-color: #f5eeee46;
+  border: 1px solid rgb(192, 182, 182);
+}
+.section-duan {
+  /* background-color: #f5eeee46;
+  border: 1px solid rgb(192, 182, 182); */
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  color: rgb(152, 151, 150);
+}
+
+.icon_hobby {
+  color: rgb(78, 157, 236);
+  height: 36px;
+  width: 36px;
+  padding: 5px;
+  border: 2px solid rgb(78, 157, 236);
+  border-radius: 50%;
+}
+span {
+  background: #199cdb;
+  display: inline-block;
+  height: 2px;
+  margin-right: 10px;
+  width: 30px;
+}
+.cc-img {
+  width: 200px;
+  height: auto;
+}
+.gt.gt1 {
+  /* margin-left: 0px; */
+}
+.award {
+  border-bottom: 1px solid #dfb717c3;
+}
+.b-left {
+  border-left: 1px solid #dfb717c3;
+  /* margin-bottom: 20px; */
+}
+.item_du-an {
+  /* max-width: 33.33333333%; */
+  border: 1px solid rgb(192, 182, 182);
+  margin: 10px;
+}
+table td:first-child {
+  width: 100px;
+}
+table {
+  color: rgb(85, 81, 81);
+  height: 150px;
+  border-collapse: collapse;
+}
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  font-size: 15px;
+}
+.year {
+  width: 60px;
+  height: 40px;
+  display: flex;
+  background-color: #199cdb;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.icon-facebook-circled,
+.icon-linkedin-circled,
+.icon-github-circled {
+  color: #199cdb;
+}
